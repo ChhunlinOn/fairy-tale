@@ -20,7 +20,7 @@ fetch(url)
         <div class="card border-0 border-end">
         <img src="${data[i].image}"alt="...">
         <div class="card-body">
-          <a href="../../page/detail-page/index.html?id=${data[i].id}" class="card-title fs-4">${data[i].title}</a>
+          <a href="./page/detail-page/index.html?id=${data[i].id}" class="card-title fs-4">${data[i].title}</a>
           <p class="card-text">${data[i].summary}</p>
           <p>By: ${data[i].author}</p>
         </div>
@@ -34,7 +34,7 @@ fetch(url)
       <div class="card border-0 border-end">
       <img src="${data[i].image}"alt="...">
       <div class="card-body">
-        <a href="../../page/detail-page/index.html?id=${data[i].id}" class="card-title fs-4">${data[i].title}</a>
+        <a href="./page/detail-page/index.html?id=${data[i].id}" class="card-title fs-4">${data[i].title}</a>
         <p class="card-text">${data[i].summary}</p>
         <p>By: ${data[i].author}</p>
       </div>
@@ -49,7 +49,7 @@ fetch(url)
     <div class="card border-0 border-end">
     <img src="${data[i].image}"alt="...">
     <div class="card-body">
-      <a href="../../page/detail-page/index.html?id=${data[i].id}" class="card-title fs-4">${data[i].title}</a>
+      <a href="./page/detail-page/index.html?id=${data[i].id}" class="card-title fs-4">${data[i].title}</a>
       <p class="card-text">${data[i].summary}</p>
       <p>By: ${data[i].author}</p>
     </div>
